@@ -1,0 +1,15 @@
+<Definitions>
+  <TileMaterialDefinition name="None" isVisible="false" />
+  <TileMaterialDefinition name="Stone" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="3,6" />
+  <TileMaterialDefinition name="Brick" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="0,5" />
+  <TileMaterialDefinition name="Grass" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="2,1" />
+  <TileMaterialDefinition name="Dirt" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="5,2" />
+  <TileMaterialDefinition name="CaveStone" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="4,3" />
+  <TileMaterialDefinition name="WoodWall" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="1,6" />
+  <TileMaterialDefinition name="WoodTile" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="2,6" />
+  <TileMaterialDefinition name="WoodFloor" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="0,6" />
+  <TileMaterialDefinition name="CaveRoof" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="0,3" />
+  <TileMaterialDefinition name="RedStoneFloor" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="6,5" />
+  <TileMaterialDefinition name="Ice" shader="Default" texture="Data/Images/Terrain_8x8.png" cellCount="8,8" cell="4,6" />
+</Definitions>
+        

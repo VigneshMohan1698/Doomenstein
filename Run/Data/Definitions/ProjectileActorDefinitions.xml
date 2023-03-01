@@ -1,0 +1,39 @@
+<Definitions>
+	<!-- Plasma Projectile -->
+	<ActorDefinition name="PlasmaProjectile" canBePossessed="false" corpseLifetime="0.25">
+		<Collision radius="0.0625" height="0.125" collidesWithWorld="true" collidesWithActors="true" damageOnCollide="5.0~10.0" impulseOnCollide="4.0" dieOnCollide="true"/>
+		<Physics simulated="true" turnSpeed="0.0" flying="true" drag="0.0" />
+		<Appearance size="1.0,1.0" pivot="0.5,0.5" billboardType="Aligned" renderDepth="true" renderLit="false">
+			<AnimationGroup name="Walk" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Plasma.png" cellCount="4,1" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="0"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Death" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Plasma.png" cellCount="4,1" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="1" endFrame="3"/>
+				</Direction>
+			</AnimationGroup>
+		</Appearance>
+		<Sounds>
+			<Sound sound="Death" name="Data/Audio/PlasmaHit.wav"/>
+		</Sounds>
+	</ActorDefinition>
+	<!-- Fire Projectile -->
+	<ActorDefinition name="Fire" canBePossessed="false" corpseLifetime="0.25">
+		<Collision radius="0.0625" height="0.125" collidesWithWorld="true" collidesWithActors="true" damageOnCollide="5.0~10.0" impulseOnCollide="2.0" dieOnCollide="true"/>
+		<Physics simulated="true" turnSpeed="0.0" flying="true" drag="0.0" />
+		<Appearance size="1.0,1.0" pivot="0.5,0.5" billboardType="Aligned" renderDepth="true" renderLit="false">
+			<AnimationGroup name="Walk" shader="Data/Shaders/Fire" spriteSheet="Data/Images/Plasma.png" cellCount="4,1" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="0"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Death" shader="Data/Shaders/Fire" spriteSheet="Data/Images/Plasma.png" cellCount="4,1" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="1" endFrame="3"/>
+				</Direction>
+			</AnimationGroup>
+		</Appearance>
+	</ActorDefinition>
+</Definitions>

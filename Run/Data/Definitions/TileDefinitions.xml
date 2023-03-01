@@ -1,0 +1,10 @@
+<Definitions>
+  <TileDefinition name="Air" isSolid="false" />
+  <TileDefinition name="StoneFloor" isSolid="false" floorMaterial="CaveStone" ceilingMaterial="CaveRoof" />
+  <TileDefinition name="WoodFloor" isSolid="false" floorMaterial="WoodFloor" ceilingMaterial="CaveRoof" />
+  <TileDefinition name="BrickWall" isSolid="true" wallMaterial="RedStoneFloor" />
+  <TileDefinition name="WoodWall" isSolid="true" wallMaterial="WoodWall" />
+  <TileDefinition name="OpenGrass" isSolid="false" floorMaterial="Grass" ceilingMaterial="CaveStone" />
+  <TileDefinition name="OpenDirt" isSolid="false" floorMaterial="Dirt" ceilingMaterial="CaveStone" />
+  <TileDefinition name="IceWall" isSolid="true" wallMaterial="Ice" />
+</Definitions>

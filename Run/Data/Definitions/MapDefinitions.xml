@@ -1,0 +1,28 @@
+<Definitions>
+	<MapDefinition name="TestMap" image="Data/Maps/TestMap.png" tileSet="Default">
+		<SpawnInfos>
+			<SpawnInfo actor="SpawnPoint" position="30.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="27.0,15.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="25.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="FlyingDemon" position="30.5,10.5,0.3" orientation="270.0,0.0,0.0" />
+
+		</SpawnInfos>
+	</MapDefinition>
+	<MapDefinition name="Map2" image="Data/Maps/Map2.png" tileSet="Default">
+		<SpawnInfos>
+			<!--<SpawnInfo actor="SpawnPoint" position="30.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="27.0,15.5,0.0" orientation="270.0,0.0,0.0" />-->
+			<SpawnInfo actor="SpawnPoint" position="25.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="FlyingDemon" position="30.5,15.5,0.3" orientation="900.0,0.0,0.0" />
+			<SpawnInfo actor="FlyingDemon" position="28.5,15.5,0.3" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="FlyingDemon" position="35.5,15.5,0.3" orientation="150.0,0.0,0.0" />
+
+			<SpawnInfo actor="Demon" position="26.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="Demon" position="25.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="Demon" position="22.0,10.5,0.0" orientation="270.0,0.0,0.0" />
+			<SpawnInfo actor="Demon" position="20.5,24.0,0.0" orientation="270.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+</Definitions>
+
+
